@@ -40,10 +40,7 @@ public class StudentController {
         }
 
     }
-//    @DeleteMapping(path="{studentId}")
-//    public void deleteStudent(@PathVariable("studentId") Long studentId){
-//         studentService.deleteStudent( studentId);
-//    }
+
     @DeleteMapping(path = "{studentId}")
     public ResponseEntity<String> deleteStudent(@PathVariable("studentId") Long studentId) {
     try {

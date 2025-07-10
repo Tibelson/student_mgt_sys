@@ -33,13 +33,6 @@ public class Student {
     public Student() {
     }
 
-//    public Student(Long id, String name, Integer age, String email, LocalDate dob) {
-//        this.id = id;
-//        this.name = name;
-//        this.age = age;
-//        this.email = email;
-//        this.dob = dob;
-//    }
 
     public Student(String name, String email, LocalDate dob) {
         this.name = name;
