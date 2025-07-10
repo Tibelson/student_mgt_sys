@@ -26,6 +26,7 @@ public class Student {
     private String name;
     @Transient
     private Integer age;
+    @Column(unique = true)
     private String email;
     private  LocalDate dob;
 
@@ -80,7 +81,7 @@ public class Student {
     public void setDob(LocalDate dob){
         this.dob = dob;
     }
-    public LocalDate getDob(LocalDate dob){
+    public LocalDate getDob(){
         return dob;
     }
 
